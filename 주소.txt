@@ -1,0 +1,45 @@
+말머리기호용
+https://www.flaticon.com/free-icon/tea_894337?term=tea&page=1&position=53
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/smalllikeart" title="smalllikeart">smalllikeart</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+여행
+https://www.flaticon.com/free-icon/suitcases_2906719?term=trip&page=1&position=4
+<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+웹툰
+https://www.flaticon.com/free-icon/comic_626559?term=comic&page=1&position=51
+
+유튜브
+https://www.flaticon.com/free-icon/youtube_889160?term=youtub&page=1&position=45
+
+책
+https://www.flaticon.com/free-icon/books_167756
+
+홈으로 되돌아가기 아이콘
+<div>Icons made by <a href="https://www.flaticon.com/free-icon/home_2948210" title="bqlqn">bqlqn</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+나만의 웹 애플리케이션 기획 및 제작
+1. 중간고사 대체 과제물
+제출물 : 기획서(10점) 및 웹 애플리케이션 제작(10점)
+어떤 주제로 개성을 담아 구축할지 기획서를 작성한다. 
+(웹애플리케이션의 주제, 기획의도, 타겟 방문객, 메뉴 구성 및 콘텐츠/레이아웃 디자인)
+평가 기준은
+1. 웹 애플리케이션의 주제가 명확한지
+2.주제에 따른 디자인이 개성에 맞는지
+평가할 예정입니다.
+또한, HTML 문서와 CSS 문서로 제작하여 mm 서버에 업로드 합니다.
+(기획서 표지에 mm 서버 주소 제출합니다!)
+이때, HTML 문서는 구조화 요소를 필히 사용해야 합니다. 
+CSS 문서는 적어도 5개 이상 다양한 선택자 방법으 로 꾸며야 합니다.
+- 제출 기한 : 2020년 6월 3일 23시 55분 까지
+
+2. 기말 과제물
+제출물 : 보고서(10점) 및 웹 애플리케이션 제작(10점)
+앞서 만든 웹 애플리케이션에 자바스크립트를 이용하여 동적 처리 기능을 추가합니다.
+적어도 자바스크립트로 만든 기능이 2개 이상 있어야 합니/' 다.
+보고서는 전체 웹 애플리케이션에 대한 코드 설명 및 캡쳐 화면을 상세하게 기록하여
+성실하게 작성합니다.
+특히, 학기 중에 배운 내용이 녹아들어가 있도록 작성합니다.
+마지막으로 소감도 작성합니다.
+- 제출 기한 : 2020년 6월 24일 23시 55분 까지

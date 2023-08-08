@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <title>차는 무엇인가?</title>
+    <meta charset="UTF-8">
+    <meta authors="신지우">
+    <link rel="stylesheet" type="text/css" href="gatt.css"/>
+</head>
+<body>
+    <header>
+        <div id="list">
+        <span class="list"><a href="teadef.html">차의 정의</a></span>
+        <span class="list"><a href="recommend.html">초심자용 차</a></span>
+        <span class="list"><a href="teastudy.html">차 공부</a></span>
+        <span class="list"><a href="teatest.html">차 테스트</a></span>
+        </div>
+        <br><br><br>
+    </header>
+
+    <article>
+        <section class="field">
+            <h2>'차'하면 무엇이 떠오르나요?</h2><hr>
+            <form action="">
+                <p style="text-align: center;">선지 중에서 '차'를 모두 골라보세요!</p>
+                <figure>
+                <input type="checkbox" id="cocoa"><label for = "cocoa">코코아</label>
+                <input type="checkbox" id="blacktea"><label for = "blacktea">홍차</label>
+                <input type="checkbox" id="corntea"><label for = "corntea">옥수수수염차</label>
+                <input type="checkbox" id="yujatea"><label for = "yujatea">유자차</label>
+                <input type="checkbox" id="oolongtea"><label for ="oolongtea">우롱차</label><br><br><br>
+                <input type="button" id="checkTheAnswer" value="다 고르셨나요?"></figure>
+            </form><br>
+        </section>
+        <br><br>
+        <script type="text/javascript" src="teadef.js"></script>
+        <!--자바스크립트로 <form>의 버튼을 누르면 display:block으로 바꿔 아래 섹션이 나타나게 할 예정-->
+        <section class="field" id="answer" style="display: none;">
+            <h2>정답을 확인해볼까요?<h2><hr>
+            <h2 style="text-decoration: underline;">엄밀한 의미에서는 앞 예시들 중 홍차와 우롱차를 제외하고는 ‘차’라고 말할 수 없어요!</h2>
+            <figure>
+                <p>왜냐하면 엄격한 의미에서의 차는 ‘차나무의 잎으로 우린 음료’를 가리키는 말이기 때문이에요.</p>
+                <img src="teatree.jpg"width="80%">
+                <p>차는  가공 방법에 따라 크게 6가지 종류로 구분돼요.</p>
+                <p><span style="background-color: aliceblue;">백차</span>, <span style="color:snow; background-color: seagreen;">녹차</span>,
+                    <span style="color: snow; background-color: orange;">황차</span>, <span style="color: snow;background-color: orangered;">홍차</span>,
+                    <span style="color:snow;background-color: steelblue;">청차</span>, <span style="color: snow;background-color: black;">흑차</span>가 있습니다.
+                    <br> 답 중 하나였던 우롱차는 <span style="color:snow;background-color: steelblue;">청차</span>의 다른 이름이에요!</p>
+            </figure>
+        </section>
+    </article>
+
+    <aside>
+        <a href="index.html"><img src="home.png" alt="홈페이지"></a>
+    </aside>
+
+    <footer>
+        <hr>
+        <div class="copyright">&#169;Home Icon made by <a href="https://www.flaticon.com/free-icon/home_2948210" title="bqlqn">bqlqn</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        <div id="writer">1912339 소프트웨어학부 소프트웨어융합전공 신지우</div>
+    </footer>
+</body>
+</html>

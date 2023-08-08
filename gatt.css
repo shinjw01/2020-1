@@ -1,0 +1,22 @@
+#title,h2 {text-align: center;}
+#list {background-color:mediumaquamarine;position: relative;top:15pt;}
+.list{font-family:"맑은고딕";font-size: 20pt; color:royalblue; padding-top: 5%; padding-left: 14%;}
+nav {font-family:"";font-size: 15pt;}
+a {text-decoration: none;color:royalblue;}
+a:visited {color:royalblue}
+
+.leftAnchor {position:absolute; left: 350px;}
+.rightAnchor {position:absolute; left: 900px;}
+#newstable {table-layout : fixed; width: 60%; position: relative; left : 20%;}
+h1 {font-size: 30pt;text-align: center;text-decoration:underline;}
+
+.field {border:4px outset mediumaquamarine;border-radius : 10px; width:80%; position: relative; left:10%;}
+#travel,#webtoon,#youtube,#books {font-size: x-large;}
+#booktable {table-layout : fixed; width: 80%; position: relative; left : 10%;}
+.book {padding-left: 10%;}
+ol {list-style-type: upper-roman;}
+figure {text-align: center;}
+
+aside {position:fixed; bottom:5%; right:5%;}
+.copyright {text-align: left;font-style: italic;}
+#writer {text-align: right; font-style: italic;}

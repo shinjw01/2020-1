@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+    <title>mb-tea-i</title>
+    <meta charset="UTF-8">
+    <meta authors="신지우">
+    <link rel="stylesheet" type="text/css" href="gatt.css"/>
+</head>
+<body>
+    <header>
+        <div id="list">
+        <span class="list"><a href="teadef.html">차의 정의</a></span>
+        <span class="list"><a href="recommend.html">초심자용 차</a></span>
+        <span class="list"><a href="teastudy.html">차 공부</a></span>
+        <span class="list"><a href="teatest.html">차 테스트</a></span>
+        </div>
+        <br><br><br>
+    </header>
+
+    <article>
+        <section class="field">
+            <h2>MB-Tea-I를 해보자!</h2><hr>
+            <figure><p style="color:gray;">**재미를 위해 엄격한 의미에서의 차뿐만 아니라 넓은 의미에서의 차를 포함하고 있습니다!**</p>
+            <form action="" name="choice">
+                <p>Q1. 새로운 메뉴가 나오면 맛 보길 시도하나요?</p>
+                <input type="radio" id="firstQ_y" name="firstQ" value='y'>네 
+                <input type="radio" id = "firstQ_n" name="firstQ" value='n'>아뇨<br>
+                <p>Q2. 아름다운 관광지를 돌아다니는 여행이 더 좋나요, 좋은 숙소에서 푹 쉬는 여행이 더 좋나요?</p>
+                <input type="radio" id= "secondQ_y" name="secondQ" value='y'>전자 
+                <input type="radio" id="secondQ_n" name="secondQ" value='n'>후자<br>
+                <p>Q3. 혼자 있을때도 밥을 정성껏 챙겨먹나요, 아니면 간단하게 대충 먹고 마나요?</p>
+                <input type="radio" id="finalQ_y" name="finalQ" value='y'>전자 
+                <input type="radio" id="finalQ_n" name="finalQ" value='n'>후자<br><br><br>
+                <input type="button" id="answer" value="결과 확인">
+            </form></figure>
+        </section>
+        <br>
+        <!--자바스크립트로 <form>의 버튼을 누르면 display:block으로 바꿔 아래 섹션이 나타나게 할 예정-->
+        <section class="field" id="resultSection" style="display: none;">
+            <figure id="result1" style="display: none;">
+                <h2>블루멜로우</h2><hr>
+                <img src="bluemellow.jpg" width="80%">
+                <p>모험심이 강하고 아름다움을 추구하며 귀찮음을 마다하지 않는 당신에게 어울릴 것 같아요.<br>레몬즙을 떨어뜨려보세요!</p>
+            </figure>
+            <figure id="result2" style="display: none;">
+                <h2>수공예 꽃차</h2><hr>
+                <img src="flowertea.jpg" width="80%">
+                <p>간단하게 꽃봉오리 차를 넣어놓고 신기함과 아름다움을 음미하세요!<br>투명한 찻주전자는 필수!</p>
+            </figure>
+            <figure id="result3" style="display: none;">
+                <h2>말차</h2><hr>
+                <img src="matcha.jpg" width="80%">
+                <p>제조하기는 까다롭지만 도전할만한 가치가 있는 고급스러운 맛!</p>
+            </figure>
+            <figure id="result4" style="display: none;">
+                <h2>이슬차(수국 잎차)</h2><hr>
+                <img src="hydrangea.jpg" width="80%">
+                <p>수수하고 간단한 차지만, 맛은 예상 밖!<br>설탕을 넣지도 않았는데 단맛이!</p>
+            </figure>
+            <figure id="result5" style="display: none;">
+                <h2>애프터눈 티세트</h2><hr>
+                <img src="afternoon.jpg" width="80%">
+                <p>비싸지만 아름답고 품격있는 티타임이 될 것은 확실하네요!</p>
+            </figure>
+            <figure id="result6" style="display: none;">
+                <h2>버블밀크티</h2><hr>
+                <img src="bubble.jpg" width="80%">
+                <p>카페에서 흔한 메뉴지만 반짝이는 타피오카 펄들이 아름다워요.</p>
+            </figure>
+            <figure id="result7" style="display: none;">
+                <h2>티백이 아닌 잎홍차</h2><hr>
+                <img src="blacktea.jpg" width="80%">
+                <p>티백이 아닌 잎홍차를 우려먹어보아요. 스스로를 정성스레 대접해주는 기분일거예요.</p>
+            </figure>
+            <figure id="result8" style="display: none;">
+                <h2>편의점 차</h2><hr>
+                <img src="convenience.jpg" width="80%">
+                <p>흔하지만 언제든지 즐길 수 있는 매력이 있어요!<br>잘 찾아보면 맛있는 메뉴가 많답니다.</p>
+            </figure>
+        </section>
+    </article>
+
+    <aside>
+        <a href="index.html"><img src="home.png" alt="홈페이지"></a>
+    </aside>
+    
+    <footer>
+        <hr>
+        <div class="copyright">&#169;Home Icon made by <a href="https://www.flaticon.com/free-icon/home_2948210" title="bqlqn">bqlqn</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        <div id="writer">1912339 소프트웨어학부 소프트웨어융합전공 신지우</div>
+    </footer>
+    <script type="text/javascript" src="teatest.js"></script>
+</body>
+</html>
